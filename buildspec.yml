@@ -2,11 +2,11 @@ version: 0.2
 
 env:
   variables:
-    AWS_ACCOUNT_ID: "289857919920"
+    AWS_ACCOUNT_ID: "896607972914"
     REPOSITORY_NAME: "website"
     CONTAINER_NAME: "website"
-    CLUSTER_NAME: "websitecluster"
-    AWS_DEFAULT_REGION: "ap-south-1"
+    CLUSTER_NAME: "test-activation-cluster"
+    AWS_DEFAULT_REGION: "us-east-2"
     IMAGE_TAG: "latest"
 phases:
   pre_build:
